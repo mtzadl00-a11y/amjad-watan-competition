@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--primary:#004F9F;--accent:#00C7BE;--dark:#1E1E1E}
+html,body,#root{height:100%}body{direction:rtl;font-family:Changa, sans-serif;background:linear-gradient(180deg,#071029 0%, #071c2a 100%);}

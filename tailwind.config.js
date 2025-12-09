@@ -1,0 +1,1 @@
+export default { content: ['./index.html','./src/**/*.{js,jsx}'], theme:{ extend: { colors:{ primary:'#004F9F', accent:'#00C7BE', dark:'#1E1E1E' }, fontFamily:{ changa:['Changa','sans-serif'] } } }, plugins: [] }

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: amjad-watan-competition
+    env: node
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run preview"
+    nodeVersion: "18"
+    autoDeploy: true
+    plan: free

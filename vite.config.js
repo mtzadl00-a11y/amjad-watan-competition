@@ -11,5 +11,8 @@ export default defineConfig({
     host: true,
     port: process.env.PORT || 4173,
     strictPort: true,
-  },
+    allowedHosts: [
+      "amjad-watan-competition.onrender.com"
+    ]
+  }
 });
